@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B470C9BE25A5D3B9001D0564 /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470C9BD25A5D3B9001D0564 /* EmojiTableViewCell.swift */; };
 		B48E8258259FAD0400F2C5E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E8257259FAD0400F2C5E9 /* AppDelegate.swift */; };
 		B48E825A259FAD0400F2C5E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E8259259FAD0400F2C5E9 /* SceneDelegate.swift */; };
 		B48E825C259FAD0400F2C5E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E825B259FAD0400F2C5E9 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B470C9BD25A5D3B9001D0564 /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 		B48E8254259FAD0400F2C5E9 /* EmojiReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48E8257259FAD0400F2C5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B48E8259259FAD0400F2C5E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				B48E8260259FAD0500F2C5E9 /* Assets.xcassets */,
 				B48E8262259FAD0500F2C5E9 /* LaunchScreen.storyboard */,
 				B48E8265259FAD0500F2C5E9 /* Info.plist */,
+				B470C9BD25A5D3B9001D0564 /* EmojiTableViewCell.swift */,
 			);
 			path = EmojiReader;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				B48E826E259FB12F00F2C5E9 /* EmojiTableViewController.swift in Sources */,
 				B48E825C259FAD0400F2C5E9 /* ViewController.swift in Sources */,
+				B470C9BE25A5D3B9001D0564 /* EmojiTableViewCell.swift in Sources */,
 				B48E8258259FAD0400F2C5E9 /* AppDelegate.swift in Sources */,
 				B48E825A259FAD0400F2C5E9 /* SceneDelegate.swift in Sources */,
 			);
