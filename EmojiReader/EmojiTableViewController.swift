@@ -67,3 +67,4 @@ class EmojiTableViewController: UITableViewController {
         tableView.reloadData()
     }
 }
+
