@@ -66,12 +66,12 @@
 				B48E8259259FAD0400F2C5E9 /* SceneDelegate.swift */,
 				B48E825B259FAD0400F2C5E9 /* ViewController.swift */,
 				B48E826D259FB12E00F2C5E9 /* EmojiTableViewController.swift */,
+				B470C9BD25A5D3B9001D0564 /* EmojiTableViewCell.swift */,
 				B470C9C025A5DD80001D0564 /* EmojiModel.swift */,
 				B48E825D259FAD0400F2C5E9 /* Main.storyboard */,
 				B48E8260259FAD0500F2C5E9 /* Assets.xcassets */,
 				B48E8262259FAD0500F2C5E9 /* LaunchScreen.storyboard */,
 				B48E8265259FAD0500F2C5E9 /* Info.plist */,
-				B470C9BD25A5D3B9001D0564 /* EmojiTableViewCell.swift */,
 			);
 			path = EmojiReader;
 			sourceTree = "<group>";
