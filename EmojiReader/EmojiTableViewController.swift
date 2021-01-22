@@ -82,6 +82,7 @@ class EmojiTableViewController: UITableViewController {
         action.backgroundColor = .systemGreen
         action.image = UIImage(systemName: "checkmark.circle")
         return action
+        //New
     }
     
     func favoriteAction(at indexPath: IndexPath) -> UIContextualAction {
