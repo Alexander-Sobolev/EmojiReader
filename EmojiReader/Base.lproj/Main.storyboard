@@ -105,6 +105,9 @@
                                                     <rect key="frame" x="16" y="5" width="382" height="34"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <action selector="textChange:" destination="Jjc-UW-qPZ" eventType="editingChanged" id="RRg-as-QJi"/>
+                                                    </connections>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -130,6 +133,9 @@
                                                     <rect key="frame" x="16" y="5" width="382" height="34"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <action selector="textChange:" destination="Jjc-UW-qPZ" eventType="editingChanged" id="7AQ-17-JzS"/>
+                                                    </connections>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -155,6 +161,9 @@
                                                     <rect key="frame" x="16" y="5" width="382" height="34"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <action selector="textChange:" destination="Jjc-UW-qPZ" eventType="editingChanged" id="BZP-7v-LAK"/>
+                                                    </connections>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -173,7 +182,16 @@
                             <outlet property="delegate" destination="Jjc-UW-qPZ" id="8pY-tr-fVB"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="mFJ-W5-tHv"/>
+                    <navigationItem key="navigationItem" id="mFJ-W5-tHv">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="oqD-TN-0xz"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" style="done" id="aRr-Z3-svf"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="descripyionTextField" destination="xD8-QK-Apw" id="WPJ-RR-G3Y"/>
+                        <outlet property="emojiTextField" destination="CVL-sZ-HYH" id="TEQ-Xm-Aau"/>
+                        <outlet property="nameTextField" destination="uMN-aV-Fdt" id="J8Q-Ol-q3h"/>
+                        <outlet property="saveButton" destination="aRr-Z3-svf" id="yKg-xf-B87"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ji9-j7-XaJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
